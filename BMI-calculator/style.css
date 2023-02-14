@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.outer-container   {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 184, 97);
+    flex-direction: column;
+}
+
+#header {
+    margin-bottom: 2rem;
+    color:rgb(0, 119, 28);
+    letter-spacing:5px;
+}
+
+/* Container */
+
+.container {
+    font-weight:500;
+    padding-top:5rem;
+    font-size:1.4rem;
+    width:400px;
+    height:400px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    border-radius:20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+/* Input sections */
+
+.input-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+
+/* submit button */
+
+button {
+    padding:10px;
+    width:15rem;
+    margin-top:1rem;
+    border-radius:10px;
+    border:none;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    color: rgba(0, 0, 0);
+    background-color:rgba(146, 146, 146, 0);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.8);
+    
+}
+
+/* input fields */
+
+input {
+    padding:15px;
+    outline:none;
+    border:none;
+    border-radius:10px;
+}
+
+/* Input sec color */
+
+.input-sec label {
+    color:rgb(0, 119, 28)
+}
+
+
+/* radio button container */
+.radio-btn-cont {
+    display:flex;
+    gap:3rem;
+}
+
+#unit {
+ border:none;
+ color:rgb(0, 119, 28);
+ border-radius:45px;
+ padding:20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#unit:focus {
+    outline:none;
+    border:none;
+}

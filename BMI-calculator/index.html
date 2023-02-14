@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change IMG</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="outer-container">
+        <h1 id="header">Welcome to your BMI calculator!</h1>
+        <div class="container">
+            
+                <div class="input-sec height">
+                    <label id="height-cm" for="height">Height (CM)</label>
+                    <input type="number" name="BMI" id="height">
+                </div>
+
+                <div class="input-sec weight">
+                    <label id="weight-lbl" for="weight">Weight (KG)</label>
+                    <input type="number" name="BMI" id="weight">
+                </div>
+                
+                <div class="radio-btn-cont">
+                   
+
+                    <select name="unit" id="unit">
+                        <option value="metric" id="metric-radio">Metric</option>
+                        <option value="imperial" id="imperial-radio">Imperial</option>
+                    </select>
+                </div>
+
+                    <div class="button">
+                        <button id="submit">Check your BMI</button>
+                    </div>
+
+                
+                    
+                <P id="output"></P>
+        </div>
+
+    </div>
+</body>
+</html>
